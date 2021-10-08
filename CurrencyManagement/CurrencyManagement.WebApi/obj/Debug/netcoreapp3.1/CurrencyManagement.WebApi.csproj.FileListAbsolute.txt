@@ -81,3 +81,4 @@
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Npgsql.dll
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll

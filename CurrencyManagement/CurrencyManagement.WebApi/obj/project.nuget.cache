@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XQbVSS5MDhD23yQIUEl+FBOunY7nFrMHCFVzJ7wL7leIrjBzSAejQQLI2FzRxTmCd7unM+YXDvkOoBCSlEa74A==",
+  "dgSpecHash": "Pq3R1UBZofBpJgt8NNDl2TLwFGeLPRusfYYCDodJ9LQOPQsgKOYzyJRq130Yau6egn9miqd4ANJ+zq9jSW24cw==",
   "success": true,
   "projectFilePath": "/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/CurrencyManagement.WebApi.csproj",
   "expectedPackageFiles": [
@@ -16,10 +16,11 @@
     "/home/togrul/.nuget/packages/microsoft.aspnetcore.webutilities/2.2.0/microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
-    "/home/togrul/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/togrul/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.entityframeworkcore/3.1.11/microsoft.entityframeworkcore.3.1.11.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.entityframeworkcore.abstractions/3.1.11/microsoft.entityframeworkcore.abstractions.3.1.11.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.entityframeworkcore.analyzers/3.1.11/microsoft.entityframeworkcore.analyzers.3.1.11.nupkg.sha512",
+    "/home/togrul/.nuget/packages/microsoft.entityframeworkcore.design/3.1.11/microsoft.entityframeworkcore.design.3.1.11.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.entityframeworkcore.relational/3.1.11/microsoft.entityframeworkcore.relational.3.1.11.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/togrul/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.11/microsoft.extensions.caching.abstractions.3.1.11.nupkg.sha512",

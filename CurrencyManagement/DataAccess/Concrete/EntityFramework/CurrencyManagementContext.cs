@@ -7,7 +7,7 @@ namespace DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Database=ToDoAppDb;Username=postgres;Password=12345");
+            optionsBuilder.UseNpgsql("Host=localhost;Database=CurrencyManagementDb;Username=postgres;Password=12345");
         }
 
         public DbSet<User> Users { get; set; }
