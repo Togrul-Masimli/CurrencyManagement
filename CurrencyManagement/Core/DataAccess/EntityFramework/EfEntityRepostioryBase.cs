@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Core.DataAccess.EntityFramework
 {
-    public class EfEntityRepostioryBase<TEntity, TContext> : IEntityRepostiory<TEntity>
+    public class EfEntityRepostioryBase<TEntity, TContext> : IEntityRepository<TEntity>
         where TEntity : class, IEntity, new()
         where TContext : DbContext, new()
     {

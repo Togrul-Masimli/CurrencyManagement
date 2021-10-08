@@ -8,3 +8,6 @@
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.CoreCompileInputs.cache
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.dll
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/bin/Debug/netcoreapp3.1/Core.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/bin/Debug/netcoreapp3.1/Core.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.CopyComplete

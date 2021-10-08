@@ -6,7 +6,7 @@ namespace CurrencyManagement.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CurrencyController : Controller
+    public class CurrencyController : ControllerBase
     {
         private readonly ICurrencyService _currencyService;
 

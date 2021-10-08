@@ -11,3 +11,7 @@
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.csproj.CopyComplete
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.dll
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/Core.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/DataAccess.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/Core.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/DataAccess.pdb

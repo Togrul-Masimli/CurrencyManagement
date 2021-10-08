@@ -1,0 +1,13 @@
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.csproj.AssemblyReference.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.AssemblyInfoInputs.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.AssemblyInfo.cs
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.csproj.CoreCompileInputs.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/bin/Debug/netcoreapp3.1/DataAccess.deps.json
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/bin/Debug/netcoreapp3.1/DataAccess.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/bin/Debug/netcoreapp3.1/DataAccess.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/bin/Debug/netcoreapp3.1/Core.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/bin/Debug/netcoreapp3.1/Core.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.csproj.CopyComplete
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.pdb
