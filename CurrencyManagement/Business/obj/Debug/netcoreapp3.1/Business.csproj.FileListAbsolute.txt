@@ -1,0 +1,13 @@
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/Business.deps.json
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/Business.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/Business.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/Entities.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/bin/Debug/netcoreapp3.1/Entities.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.csproj.AssemblyReference.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.AssemblyInfoInputs.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.AssemblyInfo.cs
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.csproj.CoreCompileInputs.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.csproj.CopyComplete
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Business/obj/Debug/netcoreapp3.1/Business.pdb

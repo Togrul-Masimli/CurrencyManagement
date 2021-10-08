@@ -1,0 +1,10 @@
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/bin/Debug/netcoreapp3.1/Entities.deps.json
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/bin/Debug/netcoreapp3.1/Entities.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/bin/Debug/netcoreapp3.1/Entities.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.AssemblyReference.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfoInputs.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.AssemblyInfo.cs
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.csproj.CoreCompileInputs.cache
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/Entities/obj/Debug/netcoreapp3.1/Entities.pdb
