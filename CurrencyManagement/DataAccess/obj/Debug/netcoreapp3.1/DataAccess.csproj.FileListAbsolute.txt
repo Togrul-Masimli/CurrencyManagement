@@ -11,3 +11,5 @@
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.csproj.CopyComplete
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.dll
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/obj/Debug/netcoreapp3.1/DataAccess.pdb
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/bin/Debug/netcoreapp3.1/Entities.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/DataAccess/bin/Debug/netcoreapp3.1/Entities.pdb

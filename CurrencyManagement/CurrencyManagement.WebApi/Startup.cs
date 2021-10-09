@@ -1,26 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Business.Abstract;
 using Business.Concrete;
 using Core.DependencyResolvers;
 using Core.Extensions;
 using Core.Utilities.Security.Encryption;
-using Core.Utilities.Security.JWT;
-using DataAccess.Abstract;
-using DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
+using TokenOptions = Core.Utilities.Security.JWT.TokenOptions;
 
 namespace CurrencyManagement.WebApi
 {
@@ -37,6 +27,15 @@ namespace CurrencyManagement.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowOrigin",
+                    builder => builder.WithOrigins("http://127.0.0.1:5500"));
+                
+                options.AddPolicy("AllowOrigin",
+                    builder => builder.WithOrigins("http://127.0.0.1:5500/register.html"));
+            });
             
             services.AddSwaggerDocument();
 
@@ -62,7 +61,6 @@ namespace CurrencyManagement.WebApi
             {
                 new CoreModule()
             });
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,6 +70,10 @@ namespace CurrencyManagement.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseCors(builder => builder.WithOrigins("http://127.0.0.1:5500").AllowAnyHeader());
+            
+            app.UseCors(builder => builder.WithOrigins("http://127.0.0.1:5500/register.html").AllowAnyHeader());
 
             app.UseHttpsRedirection();
 
@@ -80,6 +82,8 @@ namespace CurrencyManagement.WebApi
             app.UseOpenApi();
 
             app.UseSwaggerUi3();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

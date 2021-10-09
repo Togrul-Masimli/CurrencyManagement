@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Currency Management</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 nav-left">
+                    <p class="company-name">Currency Management</p>
+                </div>
+                <div class="col-6 nav-right">
+                    <div class="header-user">
+                        <p class="user-name"><b>Togrul</b></p>
+                        <a href="/#" class="actions">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="content">
+                        <h2>Welcome to Currency Management App</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="date-zone">
+                        <div class="firstpicker">
+                            <h4 class="select-text">Select Start Date:</h4>
+                            <input type="date" id="start" class="datepicker">
+                        </div>
+                        <div class="secondpicker">
+                            <h4 class="select-text">Select End Date:</h4>
+                            <input type="date" id="end" class="datepicker">
+                        </div>
+                        <div class="list-box">
+                            <h4>Currency:</h4>
+                            <select name="currencies" id="currencies">
+                                <option value="usd">USD</option>
+                                <option value="euro">EUR</option>
+                                <option value="try">TRY</option>
+                            </select>
+                        </div>
+                        <button id="btn" class="chartBtn">See Chart</button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div id="charts" class="charts">
+                        <!-- <canvas id="chart"></canvas> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content">
+                        <a href="#" class="footer-logo">
+                            <img src="img/logo.svg" alt="footer_logo">
+                        </a>
+                        <div class="footer-copyright">
+                            <span>© 2021</span>
+                            <a href="#">Redesigned by Togrul Masimli</a>
+                        </div>
+                        <div class="footer-nav">
+                            <a href="#">Contacts</a>
+                            <a href="#">FAQ</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <button class="to-top" type="button">
+                                <i class="fas fa-long-arrow-alt-up"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer> -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

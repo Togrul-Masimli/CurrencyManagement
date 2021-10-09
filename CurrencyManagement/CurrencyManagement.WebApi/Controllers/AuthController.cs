@@ -1,10 +1,13 @@
 using Business.Abstract;
+using Core.Entities.Concrete;
 using Entities.DTOs;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Namotion.Reflection;
 
 namespace CurrencyManagement.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
@@ -42,6 +45,7 @@ namespace CurrencyManagement.WebApi.Controllers
             }
 
             var registerResult = _authService.Register(userForRegisterDto, userForRegisterDto.Password);
+            
             var result = _authService.CreateAccessToken(registerResult.Data);
             if (result.Success)
             {

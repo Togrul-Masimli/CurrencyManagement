@@ -82,3 +82,12 @@
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Npgsql.dll
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/EntityFramework.SqlServer.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/EntityFramework.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.AspNet.Identity.Core.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.AspNet.Identity.EntityFramework.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/togrul/Desktop/CurrencyManagement/CurrencyManagement/CurrencyManagement.WebApi/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
