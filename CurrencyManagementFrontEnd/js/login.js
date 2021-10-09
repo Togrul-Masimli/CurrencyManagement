@@ -9,10 +9,14 @@ $(document).ready(function() {
             type: 'POST',
             url: "https://localhost:5001/auth/login",
             dataType: 'json',
-            data: {
-                email: email,
-                password: password
+            headers: { 
+                'Accept': 'application/json',
+                'Content-Type': 'application/json' 
             },
+            data: JSON.stringify({
+                "email": email,
+                "password": password
+            }),
             success: function(data) {
                 console.log(data);
             }

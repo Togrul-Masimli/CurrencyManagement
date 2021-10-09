@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/register.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Register</title>
 </head>
 <body>
@@ -15,28 +17,31 @@
             <div class="row">
                 <div class="col-12 d-flex-alg-center">
                     <div class="sign-in-content">
-                        <form action="#" class="sign-form">
-                            <a href="#" class="sign-logo">
+                        <form action="index.html" id="form" class="sign-form" method="post">
+                            <a href="index.html" class="sign-logo">
                                 <h3 class="register-text">Register to <br> Currency Management</h3>
                             </a>
                             <div class="sign-group">
-                                <input type="text" id="username" class="sign-input" placeholder="Username">
+                                <input type="text" name="username" id="username" class="sign-input" placeholder="Username">
                             </div>
                             <div class="sign-group">
-                                <input type="text" id="email" class="sign-input" placeholder="Email">
+                                <input type="text" name="email" id="email" class="sign-input" placeholder="Email">
                             </div>
                             <div class="sign-group">
-                                <input type="password" id="password" class="sign-input" placeholder="Password">
+                                <input type="password" name="password" id="password" class="sign-input" placeholder="Password">
                             </div>
-                            <button id="postbtn" class="sign-button" type="button">Register</button>
+                            <button id="postbtn" class="sign-button" type="submit">Register</button>
                             <span class="sign-text">Allready have an account?
                                 <a href="login.html">Login</a>
                             </span>
                         </form>
+
+                        <button id="btn1" type="submit" class="chartBtn">Submit</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="js/register.js"></script>
 </body>
 </html>
