@@ -18,6 +18,7 @@ $(document).ready(function() {
             }),
             success: function(data) {
                 console.log(data);
+                window.location.href = 'index.html';
             }
         });
     });
