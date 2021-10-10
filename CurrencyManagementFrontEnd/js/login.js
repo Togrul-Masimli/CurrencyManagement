@@ -1,10 +1,9 @@
 $(document).ready(function() {
 
-    var email = $('#email').val();
-    var password = $('#password').val();
-
-    $('#postbtn').click(function() {
-        console.log(username);
+    $('#btn').click(function() {
+        var email = $('#email').val();
+        var password = $('#password').val();
+        console.log(email);
         $.ajax({
             type: 'POST',
             url: "https://localhost:5001/auth/login",

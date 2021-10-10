@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 450px;
     max-width: 400px;
     padding: 40px;
     position: relative;
@@ -93,7 +94,9 @@
 }
 
 .sign-button {
-    width: 100%;
+    width: 320px;
+    margin-top: -63px;
+    z-index: 1;
     height: 40px;
     background-color: #006241;
     color: #fff;
@@ -114,7 +117,8 @@
 
 .sign-text {
     display: block;
-    margin-top: 15px;
+    padding-top: -15px;
+    padding-bottom: 20px;
     font-size: 13px;
     color: #8599ab;
 }
@@ -142,4 +146,9 @@
 
 .register-text {
     color: #006241;
+}
+
+
+.login-btn {
+    margin-top: -85px;
 }

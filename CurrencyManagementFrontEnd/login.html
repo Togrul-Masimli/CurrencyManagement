@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/register.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -20,20 +22,21 @@
                                 <h3 class="register-text">Login to <br> Currency Management</h3>
                             </a>
                             <div class="sign-group">
-                                <input type="text" class="sign-input" placeholder="Email">
+                                <input type="text" id="email" name="email" class="sign-input" placeholder="Email">
                             </div>
                             <div class="sign-group">
-                                <input type="password" class="sign-input" placeholder="Password">
+                                <input type="password"  id="password" name="password" class="sign-input" placeholder="Password">
                             </div>
-                            <button id="postbtn" class="sign-button" type="button">Login</button>
                             <span class="sign-text">Don't have an account?
                                 <a href="register.html">Register</a>
                             </span>
                         </form>
+                        <button id="btn" class="login-btn sign-button" type="button">Login</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="js/login.js"></script>
 </body>
 </html>
